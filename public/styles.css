@@ -1,0 +1,148 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://wallpaperaccess.com/full/682452.jpg'); /* Set the background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%; /* Ensure full width is used */
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Hover effect for "Welcome to User Management" */
+h1:hover {
+  color: crimson;
+  text-shadow: 0 0 5px rgba(184, 104, 81, 0.861);
+}
+
+input {
+  display: block;
+  width: calc(100% - 20px); /* Ensure input width takes padding into account */
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto; /* Center align input fields */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px); /* Lift effect on hover */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-sidebar {
+  background-color: #2e7ac6fa;
+  color: white;
+  width: 250px;
+  padding: 2rem 1rem;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.dashboard-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-sidebar ul li {
+  margin: 1rem 0;
+}
+
+.dashboard-sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.dashboard-sidebar ul li a:hover {
+  background-color: #0d5ba9;
+}
+
+.dashboard-content {
+  margin-left: 270px;
+  padding: 2rem;
+  background-color: #dc69a8;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  border: 3px solid coral;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
