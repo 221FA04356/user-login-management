@@ -40,7 +40,7 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/221FA04356/user-login-management.git
    cd user-management-system
-2. Install Dependencies:
+2. Install Dependencies using the following command:
 
     ```bash
     npm install
